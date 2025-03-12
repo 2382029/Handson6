@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fetchData, createData, updateData, deleteData } from "../services/apiService";
@@ -168,13 +167,3 @@ const Posts = () => {
 };
 
 export default Posts;
-=======
-
-const Post = () => {
-  return (
-    <div>Post Page</div>
-  )
-}
-
-export default Post
->>>>>>> 9c3a06b332dea2eee06cdae0073f329a91f64d74

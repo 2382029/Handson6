@@ -3,11 +3,7 @@ import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import ProductForm, { ProductFormInput } from "../components/ProductForm";
 import axios from "../utils/AxiosInstance";
-<<<<<<< HEAD
 import { fetchProductDetail } from "./ProductDetail";
-=======
-import {fetchProductDetail} from "./ProductDetail";
->>>>>>> 9c3a06b332dea2eee06cdae0073f329a91f64d74
 
 const editProduct = async (data: ProductFormInput, id: string | undefined) => {
   return await axios.put(`/products/${id}`, data);

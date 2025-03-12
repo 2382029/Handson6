@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fetchData, createData, updateData, deleteData } from "../services/apiService";
@@ -149,12 +148,3 @@ const Recipes = () => {
 };
 
 export default Recipes;
-=======
-const Recipes = () => {
-  return (
-    <div>Recipes Page</div>
-  )
-}
-
-export default Recipes
->>>>>>> 9c3a06b332dea2eee06cdae0073f329a91f64d74
