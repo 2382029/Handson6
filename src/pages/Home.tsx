@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -17,3 +18,13 @@ const Home = () => {
 };
 
 export default Home;
+=======
+
+const Home = () => {
+    return (
+      <div>Home</div>
+    )
+  }
+  
+  export default Home
+>>>>>>> 9c3a06b332dea2eee06cdae0073f329a91f64d74
